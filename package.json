@@ -1,0 +1,30 @@
+{
+  "name": "custom-videojs-player",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "dashjs": "4.7.4",
+    "hls.js": "1.5.18",
+    "ima": "^0.16.11",
+    "video.js": "8.16.1",
+    "videojs-contrib-ads": "^7.5.2",
+    "videojs-contrib-quality-levels": "2.2.1",
+    "videojs-hotkeys": "0.2.28",
+    "videojs-ima": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.26.0",
+    "@babel/preset-env": "7.26.0",
+    "babel-loader": "9.2.1",
+    "css-loader": "7.1.2",
+    "html-webpack-plugin": "5.6.0",
+    "style-loader": "4.0.0",
+    "webpack": "5.95.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "5.0.4"
+  }
+}
