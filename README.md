@@ -63,14 +63,14 @@ Loaders: Babel (.js) + CSS (.css)
 
 Plugins: HtmlWebpackPlugin for injecting bundled scripts into index.html
 
-Dev Server: Live reload on localhost:3000
+Dev Server: Live reload on localhost:5500
 
 🏃 Running the Project
 Development (with hot reload)
 npm start
 
 
-Runs Webpack Dev Server at http://localhost:3000
+Runs Webpack Dev Server at http://localhost:9001
 
 Production Build
 npm run build
